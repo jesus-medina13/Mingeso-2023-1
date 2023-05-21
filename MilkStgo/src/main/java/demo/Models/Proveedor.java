@@ -1,13 +1,14 @@
 package demo.Models;
 
-import com.sun.istack.NotNull;
+//import com.sun.istack.NotNull;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+import jakarta.persistence.Id;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
 
 @Entity
 @Table(name = "proveedores")
@@ -16,9 +17,10 @@ import javax.persistence.Table;
 @Data
 public class Proveedor {
     @Id
-    @NotNull
-    private String codigo;
+    private Long codigo;
     private String nombre;
     private String categoria;
     private String retencion;
+
+    // Constructor, getters y setters
 }

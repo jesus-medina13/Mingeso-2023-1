@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>MilkStgo</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <style>
+    body {
+      background-color: #543D37;
+    }
+  </style>
+</head>
+<body>
+<div align = "center" class = "container my-2">
+  <h1><b>Información de Acopio.csv</b></h1>
+  <table border = "1" class = "content-table">
+    <thead>
+    <tr>
+      <th style = "color:white">Fecha</th>
+      <th style = "color:white">Turno</th>
+      <th style = "color:white">Proveedor</th>
+      <th style = "color:white">Kls Leche</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="acopio:${acopio}">
+      <td th:text="${acopio.fecha}"></td>
+      <td th:text="${acopio.turno}"></td>
+      <td th:text="${acopio.codigo}"></td>
+      <td th:text="${acopio.kls_leche}"></td>
+    </tr>
+    </tbody>
+  </table>
+  <table border = "1" class = "content-table">
+    <thead>
+    <tr>
+      <th style = "color:white">Proveedor</th>
+      <th style = "color:white">%Grasa</th>
+      <th style = "color:white">%Solido Total</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="acopio2:${acopio2}">
+      <td th:text="${acopio2.codigo}"></td>
+      <td th:text="${acopio2.grasa}"></td>
+      <td th:text="${acopio2.solido_total}"></td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+<div class="d-grid gap-2">
+  <a class="btn btn-light" type="button" href="/">Volver al menu</a>
+  <a class="btn btn-light" type="button" href="/subirArchivo">Volver atras</a>
+</div>
+</body>
+</html>
