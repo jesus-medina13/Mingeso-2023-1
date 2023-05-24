@@ -24,7 +24,7 @@ services:
     ports:
       - 33060:3306
   app1:
-    container_name: pep1
+    container_name: pep11
     image: jesusmedina13/pep1
     ports:
       - "8091:8090"
@@ -39,7 +39,7 @@ services:
       - mysql-db
 
   app2:
-    container_name: pep1
+    container_name: pep12
     image: jesusmedina13/pep1
     ports:
       - "8092:8090"
@@ -54,8 +54,9 @@ services:
       - mysql-db
 
   app3:
-    container_name: pep1
-    image: jesusmedina13/pep1
+    container_name: pep13
+    image: jesusmedina13/pep1cd..
+    
     ports:
       - "8093:8090"
     environment:
