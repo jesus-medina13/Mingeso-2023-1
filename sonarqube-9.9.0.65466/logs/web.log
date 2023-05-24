@@ -1026,3 +1026,43 @@
 2023.05.24 13:28:01 INFO  web[AYhOzXryNO+o1Q5jAAAQ][o.s.u.c.UpdateCenter] The plugin 'vbnet' version : 8.51.0.59060 has not been found on the update center.
 2023.05.24 13:28:01 INFO  web[AYhOzXryNO+o1Q5jAAAQ][o.s.u.c.UpdateCenter] The plugin 'web' version : 3.7.1.3306 has not been found on the update center.
 2023.05.24 13:28:01 INFO  web[AYhOzXryNO+o1Q5jAAAQ][o.s.u.c.UpdateCenter] The plugin 'xml' version : 2.7.0.3820 has not been found on the update center.
+2023.05.24 13:47:18 INFO  web[AYhOzXryNO+o1Q5jAABY][o.s.u.c.UpdateCenter] The plugin 'config' version : 1.2.0.267 has not been found on the update center.
+2023.05.24 13:47:18 INFO  web[AYhOzXryNO+o1Q5jAABY][o.s.u.c.UpdateCenter] The plugin 'csharp' version : 8.51.0.59060 has not been found on the update center.
+2023.05.24 13:47:18 INFO  web[AYhOzXryNO+o1Q5jAABY][o.s.u.c.UpdateCenter] The plugin 'flex' version : 2.8.0.3166 has not been found on the update center.
+2023.05.24 13:47:18 INFO  web[AYhOzXryNO+o1Q5jAABY][o.s.u.c.UpdateCenter] The plugin 'go' version : 1.11.0.3905 has not been found on the update center.
+2023.05.24 13:47:18 INFO  web[AYhOzXryNO+o1Q5jAABY][o.s.u.c.UpdateCenter] The plugin 'iac' version : 1.11.0.2847 has not been found on the update center.
+2023.05.24 13:47:18 INFO  web[AYhOzXryNO+o1Q5jAABY][o.s.u.c.UpdateCenter] The plugin 'jacoco' version : 1.3.0.1538 has not been found on the update center.
+2023.05.24 13:47:18 INFO  web[AYhOzXryNO+o1Q5jAABY][o.s.u.c.UpdateCenter] The plugin 'java' version : 7.16.0.30901 has not been found on the update center.
+2023.05.24 13:47:18 INFO  web[AYhOzXryNO+o1Q5jAABY][o.s.u.c.UpdateCenter] The plugin 'javascript' version : 9.13.0.20537 has not been found on the update center.
+2023.05.24 13:47:18 INFO  web[AYhOzXryNO+o1Q5jAABY][o.s.u.c.UpdateCenter] The plugin 'kotlin' version : 2.12.0.1956 has not been found on the update center.
+2023.05.24 13:47:18 INFO  web[AYhOzXryNO+o1Q5jAABY][o.s.u.c.UpdateCenter] The plugin 'php' version : 3.27.1.9352 has not been found on the update center.
+2023.05.24 13:47:18 INFO  web[AYhOzXryNO+o1Q5jAABY][o.s.u.c.UpdateCenter] The plugin 'python' version : 3.24.0.10784 has not been found on the update center.
+2023.05.24 13:47:18 INFO  web[AYhOzXryNO+o1Q5jAABY][o.s.u.c.UpdateCenter] The plugin 'ruby' version : 1.11.0.3905 has not been found on the update center.
+2023.05.24 13:47:18 INFO  web[AYhOzXryNO+o1Q5jAABY][o.s.u.c.UpdateCenter] The plugin 'sonarscala' version : 1.11.0.3905 has not been found on the update center.
+2023.05.24 13:47:18 INFO  web[AYhOzXryNO+o1Q5jAABY][o.s.u.c.UpdateCenter] The plugin 'text' version : 2.0.1.611 has not been found on the update center.
+2023.05.24 13:47:18 INFO  web[AYhOzXryNO+o1Q5jAABY][o.s.u.c.UpdateCenter] The plugin 'vbnet' version : 8.51.0.59060 has not been found on the update center.
+2023.05.24 13:47:18 INFO  web[AYhOzXryNO+o1Q5jAABY][o.s.u.c.UpdateCenter] The plugin 'web' version : 3.7.1.3306 has not been found on the update center.
+2023.05.24 13:47:18 INFO  web[AYhOzXryNO+o1Q5jAABY][o.s.u.c.UpdateCenter] The plugin 'xml' version : 2.7.0.3820 has not been found on the update center.
+2023.05.24 13:47:18 INFO  web[AYhOzXryNO+o1Q5jAABY][o.s.u.c.UpdateCenter] The plugin 'config' version : 1.2.0.267 has not been found on the update center.
+2023.05.24 13:47:18 INFO  web[AYhOzXryNO+o1Q5jAABY][o.s.u.c.UpdateCenter] The plugin 'csharp' version : 8.51.0.59060 has not been found on the update center.
+2023.05.24 13:47:18 INFO  web[AYhOzXryNO+o1Q5jAABY][o.s.u.c.UpdateCenter] The plugin 'flex' version : 2.8.0.3166 has not been found on the update center.
+2023.05.24 13:47:18 INFO  web[AYhOzXryNO+o1Q5jAABY][o.s.u.c.UpdateCenter] The plugin 'go' version : 1.11.0.3905 has not been found on the update center.
+2023.05.24 13:47:18 INFO  web[AYhOzXryNO+o1Q5jAABY][o.s.u.c.UpdateCenter] The plugin 'iac' version : 1.11.0.2847 has not been found on the update center.
+2023.05.24 13:47:18 INFO  web[AYhOzXryNO+o1Q5jAABY][o.s.u.c.UpdateCenter] The plugin 'jacoco' version : 1.3.0.1538 has not been found on the update center.
+2023.05.24 13:47:18 INFO  web[AYhOzXryNO+o1Q5jAABY][o.s.u.c.UpdateCenter] The plugin 'java' version : 7.16.0.30901 has not been found on the update center.
+2023.05.24 13:47:18 INFO  web[AYhOzXryNO+o1Q5jAABY][o.s.u.c.UpdateCenter] The plugin 'javascript' version : 9.13.0.20537 has not been found on the update center.
+2023.05.24 13:47:18 INFO  web[AYhOzXryNO+o1Q5jAABY][o.s.u.c.UpdateCenter] The plugin 'kotlin' version : 2.12.0.1956 has not been found on the update center.
+2023.05.24 13:47:18 INFO  web[AYhOzXryNO+o1Q5jAABY][o.s.u.c.UpdateCenter] The plugin 'php' version : 3.27.1.9352 has not been found on the update center.
+2023.05.24 13:47:18 INFO  web[AYhOzXryNO+o1Q5jAABY][o.s.u.c.UpdateCenter] The plugin 'python' version : 3.24.0.10784 has not been found on the update center.
+2023.05.24 13:47:18 INFO  web[AYhOzXryNO+o1Q5jAABY][o.s.u.c.UpdateCenter] The plugin 'ruby' version : 1.11.0.3905 has not been found on the update center.
+2023.05.24 13:47:18 INFO  web[AYhOzXryNO+o1Q5jAABY][o.s.u.c.UpdateCenter] The plugin 'sonarscala' version : 1.11.0.3905 has not been found on the update center.
+2023.05.24 13:47:18 INFO  web[AYhOzXryNO+o1Q5jAABY][o.s.u.c.UpdateCenter] The plugin 'text' version : 2.0.1.611 has not been found on the update center.
+2023.05.24 13:47:18 INFO  web[AYhOzXryNO+o1Q5jAABY][o.s.u.c.UpdateCenter] The plugin 'vbnet' version : 8.51.0.59060 has not been found on the update center.
+2023.05.24 13:47:18 INFO  web[AYhOzXryNO+o1Q5jAABY][o.s.u.c.UpdateCenter] The plugin 'web' version : 3.7.1.3306 has not been found on the update center.
+2023.05.24 13:47:18 INFO  web[AYhOzXryNO+o1Q5jAABY][o.s.u.c.UpdateCenter] The plugin 'xml' version : 2.7.0.3820 has not been found on the update center.
+2023.05.24 13:48:11 INFO  web[][o.s.p.ProcessEntryPoint] Gracefully stopping process
+2023.05.24 13:48:12 INFO  web[][o.s.s.n.NotificationDaemon] Notification service stopped
+2023.05.24 13:48:12 INFO  web[][c.z.h.HikariDataSource] HikariPool-1 - Shutdown initiated...
+2023.05.24 13:48:12 INFO  web[][c.z.h.HikariDataSource] HikariPool-1 - Shutdown completed.
+2023.05.24 13:48:12 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Embedded database stopped
+2023.05.24 13:48:12 INFO  web[][o.s.s.app.WebServer] Web Server stopped

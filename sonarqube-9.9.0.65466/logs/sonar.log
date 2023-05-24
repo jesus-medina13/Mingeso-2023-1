@@ -98,3 +98,12 @@
 2023.05.24 13:26:12 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[COMPUTE_ENGINE] from [C:\Users\Villa\OneDrive\Escritorio\JESUS USACH\Mingeso-2023-1\sonarqube-9.9.0.65466]: C:\Program Files\Java\jdk-17.0.2\bin\java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=C:\Users\Villa\OneDrive\Escritorio\JESUS USACH\Mingeso-2023-1\sonarqube-9.9.0.65466\temp -XX:-OmitStackTraceInFastThrow --add-opens=java.base/java.util=ALL-UNNAMED --add-exports=java.base/jdk.internal.ref=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.management/sun.management=ALL-UNNAMED --add-opens=jdk.management/com.sun.management.internal=ALL-UNNAMED -Dcom.redhat.fips=false -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Dhttp.nonProxyHosts=localhost|127.*|[::1] -cp ./lib/sonar-application-9.9.0.65466.jar;C:\Users\Villa\OneDrive\Escritorio\JESUS USACH\Mingeso-2023-1\sonarqube-9.9.0.65466\lib\jdbc\h2\h2-2.1.214.jar org.sonar.ce.app.CeServer C:\Users\Villa\OneDrive\Escritorio\JESUS USACH\Mingeso-2023-1\sonarqube-9.9.0.65466\temp\sq-process6018123460535750442properties
 2023.05.24 13:26:38 INFO  app[][o.s.a.SchedulerImpl] Process[ce] is up
 2023.05.24 13:26:38 INFO  app[][o.s.a.SchedulerImpl] SonarQube is operational
+2023.05.24 13:48:11 INFO  app[][o.s.a.SchedulerImpl] Stopping SonarQube
+2023.05.24 13:48:11 INFO  app[][o.s.a.SchedulerImpl] Sonarqube has been requested to stop
+2023.05.24 13:48:11 INFO  app[][o.s.a.SchedulerImpl] Stopping [Compute Engine] process...
+2023.05.24 13:48:11 INFO  app[][o.s.a.SchedulerImpl] Process[Compute Engine] is stopped
+2023.05.24 13:48:11 INFO  app[][o.s.a.SchedulerImpl] Stopping [Web Server] process...
+2023.05.24 13:48:12 INFO  app[][o.s.a.SchedulerImpl] Process[Web Server] is stopped
+2023.05.24 13:48:12 INFO  app[][o.s.a.SchedulerImpl] Stopping [ElasticSearch] process...
+2023.05.24 13:48:12 INFO  app[][o.s.a.SchedulerImpl] Process[ElasticSearch] is stopped
+2023.05.24 13:48:12 INFO  app[][o.s.a.SchedulerImpl] SonarQube is stopped
