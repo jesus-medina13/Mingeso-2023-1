@@ -1,0 +1,1 @@
+mvn clean verify sonar:sonar -Dsonar.projectKey=milkstgo -Dsonar.host.url=http://localhost:9000 -Dsonar.login=sqp_295fc611799b19a08caa39dba6f41c44dc8a2381

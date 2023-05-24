@@ -15,6 +15,11 @@
 	<description>PEP 1 projecto</description>
 	<properties>
 		<java.version>17</java.version>
+		<sonar.exclusions>
+			src/main/java/demo/Controllers/*,
+			src/main/java/demo/Models/*,
+			src/main/java/demo/Repositories/*,
+		</sonar.exclusions>
 	</properties>
 	<dependencies>
 		<dependency>
