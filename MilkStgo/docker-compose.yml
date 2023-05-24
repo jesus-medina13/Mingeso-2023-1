@@ -55,8 +55,8 @@ services:
 
   app3:
     container_name: pep13
-    image: jesusmedina13/pep1cd..
-    
+    image: jesusmedina13/pep1
+
     ports:
       - "8093:8090"
     environment:
