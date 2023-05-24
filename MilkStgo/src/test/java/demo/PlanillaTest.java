@@ -34,35 +34,40 @@ public class PlanillaTest {
         when(acopio.getKls_leche()).thenReturn(klsLeche);
         return acopio;
     }
+    private Acopio createAcopio2(String turno) {
+        Acopio acopio = mock(Acopio.class);
+        when(acopio.getTurno()).thenReturn(turno);
+        return acopio;
+    }
 
     @Test
     public void testObtenerQuincena() {
-        String fecha1 = "2023-03-17";
+        String fecha1 = "17-03-2023";
         String resultado1 = PlanillaService.obtenerQuincena(fecha1);
-        Assertions.assertEquals("16-03-17", resultado1);
+        Assertions.assertEquals("16-03-2023", resultado1);
 
-        String fecha2 = "2023-03-04";
+        String fecha2 = "04-03-2023";
         String resultado2 = PlanillaService.obtenerQuincena(fecha2);
-        Assertions.assertEquals("1-03-04", resultado2);
+        Assertions.assertEquals("1-03-2023", resultado2);
     }
 
     @Test
     public void testVerificarTurnoProveedor() {
         List<Acopio> acopios1 = new ArrayList<>();
-        acopios1.add(createAcopio("M"));
-        acopios1.add(createAcopio("T"));
+        acopios1.add(createAcopio2("M"));
+        acopios1.add(createAcopio2("T"));
 
         double resultado1 = PlanillaService.verificarTurnoProveedor(acopios1);
         Assertions.assertEquals(0.2, resultado1);
 
         List<Acopio> acopios2 = new ArrayList<>();
-        acopios2.add(createAcopio("M"));
+        acopios2.add(createAcopio2("M"));
 
         double resultado2 = PlanillaService.verificarTurnoProveedor(acopios2);
         Assertions.assertEquals(0.12, resultado2);
 
         List<Acopio> acopios3 = new ArrayList<>();
-        acopios3.add(createAcopio("T"));
+        acopios3.add(createAcopio2("T"));
 
         double resultado3 = PlanillaService.verificarTurnoProveedor(acopios3);
         Assertions.assertEquals(0.08, resultado3);
