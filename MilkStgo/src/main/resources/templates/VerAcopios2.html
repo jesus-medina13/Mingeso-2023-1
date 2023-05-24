@@ -10,33 +10,29 @@
     }
   </style>
 </head>
-<div class="container">
-  <h1 align = center style="color: white"><b1>LISTA DE PROVEEDORES</b1></h1>
-</div>
-
-<div class="container-sm">
-  <table class="table">
-    <thead class="thead-dark">
+<body>
+<div align = "center" class = "container my-2">
+  <h1><b>Información de .csv</b></h1>
+  <table border = "1" class = "content-table">
+    <thead>
     <tr>
-      <th>Código</th>
-      <th>Nombre</th>
-      <th>Categoría</th>
-      <th>Retención</th>
+      <th style = "color:white">Proveedor</th>
+      <th style = "color:white">%Grasa</th>
+      <th style = "color:white">%Solido Total</th>
     </tr>
     </thead>
     <tbody>
-    <tr th:each="proveedores:${proveedores}">
-      <td th:text="${proveedores.codigo}"></td>
-      <td th:text="${proveedores.nombre}"></td>
-      <td th:text="${proveedores.categoria}"></td>
-      <td th:text="${proveedores.retencion}"></td>
+    <tr th:each="acopio2:${acopio2}">
+      <td th:text="${acopio2.codigo}"></td>
+      <td th:text="${acopio2.grasa}"></td>
+      <td th:text="${acopio2.solido_total}"></td>
     </tr>
     </tbody>
   </table>
 </div>
 <div class="d-grid gap-2">
   <a class="btn btn-light" type="button" href="/">Volver al menu</a>
-  <a class="btn btn-light" type="button" href="/crearProveedor">Agregar un Proveedor</a>
+  <a class="btn btn-light" type="button" href="/subirArchivo">Volver atras</a>
 </div>
 </body>
 </html>

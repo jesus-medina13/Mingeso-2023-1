@@ -35,13 +35,16 @@ public class AcopioController {
         return "redirect:/subirArchivo";
     }
 
-    @GetMapping("/acopios")
+    @GetMapping("/acopio1")
     public String listar(Model model) {
         ArrayList<Acopio> acopio = acopioService.obtenerData();
-        ArrayList<Acopio2> acopio2 = acopioService.obtenerData2();
-
         model.addAttribute("acopio", acopio);
-        model.addAttribute("acopio2", acopio2);
         return "VerAcopios";
+    }
+    @GetMapping("/acopio2")
+    public String listar2(Model model) {
+        ArrayList<Acopio2> acopio2 = acopioService.obtenerData2();
+        model.addAttribute("acopio2", acopio2);
+        return "VerAcopios2";
     }
 }

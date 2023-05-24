@@ -12,7 +12,7 @@
 </head>
 <body>
 <div align = "center" class = "container my-2">
-  <h1><b>Información de Acopio.csv</b></h1>
+  <h1><b>Información de .csv</b></h1>
   <table border = "1" class = "content-table">
     <thead>
     <tr>
@@ -28,22 +28,6 @@
       <td th:text="${acopio.turno}"></td>
       <td th:text="${acopio.codigo}"></td>
       <td th:text="${acopio.kls_leche}"></td>
-    </tr>
-    </tbody>
-  </table>
-  <table border = "1" class = "content-table">
-    <thead>
-    <tr>
-      <th style = "color:white">Proveedor</th>
-      <th style = "color:white">%Grasa</th>
-      <th style = "color:white">%Solido Total</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr th:each="acopio2:${acopio2}">
-      <td th:text="${acopio2.codigo}"></td>
-      <td th:text="${acopio2.grasa}"></td>
-      <td th:text="${acopio2.solido_total}"></td>
     </tr>
     </tbody>
   </table>

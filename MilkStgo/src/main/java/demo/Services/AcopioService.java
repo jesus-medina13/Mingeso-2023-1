@@ -65,6 +65,7 @@ public class AcopioService {
             String temp = "";
             String bfRead;
             int count = 1;
+            bfRead = bf.readLine();
             while ((bfRead = bf.readLine()) != null) {
                 String[] values = bfRead.split(";");
                 if (values.length == 4) {

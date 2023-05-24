@@ -17,10 +17,9 @@ import lombok.NoArgsConstructor;
 @Data
 public class Proveedor {
     @Id
-    private Long codigo;
+    private String codigo;
     private String nombre;
     private String categoria;
     private String retencion;
 
-    // Constructor, getters y setters
 }

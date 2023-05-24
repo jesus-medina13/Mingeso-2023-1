@@ -5,8 +5,6 @@ import demo.Models.Proveedor;
 import demo.Repositories.ProveedorRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import java.util.ArrayList;
 import java.util.List;
 
 @Service
@@ -14,7 +12,7 @@ public class ProveedorService {
     @Autowired
     private ProveedorRepository proveedorRepository;
 
-    public void guardarProveedor(Long codigo, String nombre, String categoria, String retencion){
+    public void guardarProveedor(String codigo, String nombre, String categoria, String retencion){
         Proveedor proveedor = new Proveedor();
         proveedor.setCodigo(codigo);
         proveedor.setNombre(nombre);

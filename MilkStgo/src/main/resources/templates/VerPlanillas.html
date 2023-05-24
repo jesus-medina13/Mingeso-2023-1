@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>MilkStgo</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <style>
+    body {
+      background-color: #543D37;
+    }
+  </style>
+</head>
+<body>
+<div align = "center" class = "container my-2">
+  <h1><b>Planilla de pagos</b></h1>
+  <table border = "1" class = "content-table">
+    <thead>
+    <tr>
+      <th style = "color:white">Quincena</th>
+      <th style = "color:white">Codigo</th>
+      <th style = "color:white">Proveedor</th>
+      <th style = "color:white">Total KLS Leche</th>
+      <th style = "color:white">N° dias leche</th>
+      <th style = "color:white">Prom diario Leche</th>
+      <th style = "color:white">%var. Leche</th>
+      <th style = "color:white">%Grasa</th>
+      <th style = "color:white">%var. Grasa</th>
+      <th style = "color:white">%Solido Total</th>
+      <th style = "color:white">%var. Solido Total</th>
+      <th style = "color:white">Pago x Leche</th>
+      <th style = "color:white">Pago x Grasa</th>
+      <th style = "color:white">Pago x Solidos Totales</th>
+      <th style = "color:white">Bonificacion por Frecuencia $</th>
+      <th style = "color:white">Dcto. Leche $</th>
+      <th style = "color:white">Dcto. Grasa $</th>
+      <th style = "color:white">Pago Total $</th>
+      <th style = "color:white">Monto Retencion $</th>
+      <th style = "color:white">Monto Final $</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="planillas:${planillas}">
+      <td th:text="${planillas.quincena}"></td>
+      <td th:text="${planillas.codigoProveedor}"></td>
+      <td th:text="${planillas.nombreProveedor}"></td>
+      <td th:text="${planillas.totalKlsLeche}"></td>
+      <td th:text="${planillas.numeroDiasEnvioLeche}"></td>
+      <td th:text="${planillas.promedioDiarioKlsLeche}"></td>
+      <td th:text="${planillas.porcentajeVariacionLeche}"></td>
+      <td th:text="${planillas.porcentajeGrasa}"></td>
+      <td th:text="${planillas.porcentajeVariacionGrasa}"></td>
+      <td th:text="${planillas.porcentajeSolidosTotales}"></td>
+      <td th:text="${planillas.porcentajeVariacionST}"></td>
+      <td th:text="${planillas.pagoPorLeche}"></td>
+      <td th:text="${planillas.pagoPorGrasa}"></td>
+      <td th:text="${planillas.pagoPorSolidosTotales}"></td>
+      <td th:text="${planillas.descuentoVariacionLeche}"></td>
+      <td th:text="${planillas.descuentoVariacionGrasa}"></td>
+      <td th:text="${planillas.descuentoVariacionST}"></td>
+      <td th:text="${planillas.pagoTotal}"></td>
+      <td th:text="${planillas.montoRetencion}"></td>
+      <td th:text="${planillas.montoFinal}"></td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+<div class="d-grid gap-2">
+  <a class="btn btn-light" type="button" href="/">Volver al menu</a>
+</div>
+</body>
+</html>
