@@ -702,3 +702,221 @@
 2023.05.24 06:58:44 INFO  web[][o.s.s.q.ProjectsInWarningDaemon] Counting number of projects in warning is not started as there are no projects in this situation.
 2023.05.24 06:58:44 INFO  web[][o.s.s.p.p.PlatformLevelStartup] Running Community Edition
 2023.05.24 06:58:44 INFO  web[][o.s.s.p.Platform] Web Server is operational
+2023.05.24 10:32:33 INFO  web[][o.s.p.ProcessEntryPoint] Starting Web Server
+2023.05.24 10:32:35 INFO  web[][o.s.s.p.LogServerVersion] SonarQube Server / 9.9.0.65466 / ce743843018827cb30c05735e7971523de34bb48
+2023.05.24 10:32:35 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Starting embedded database on port 9092 with url jdbc:h2:tcp://127.0.0.1:9092/sonar;NON_KEYWORDS=VALUE
+2023.05.24 10:32:36 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Embedded database started. Data stored in: C:\Users\Villa\OneDrive\Escritorio\JESUS USACH\Mingeso-2023-1\sonarqube-9.9.0.65466\data
+2023.05.24 10:32:36 INFO  web[][o.sonar.db.Database] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar;NON_KEYWORDS=VALUE
+2023.05.24 10:32:36 INFO  web[][c.z.h.HikariDataSource] HikariPool-1 - Starting...
+2023.05.24 10:32:36 INFO  web[][c.z.h.p.HikariPool] HikariPool-1 - Added connection conn2: url=jdbc:h2:tcp://127.0.0.1:9092/sonar user=
+2023.05.24 10:32:36 INFO  web[][c.z.h.HikariDataSource] HikariPool-1 - Start completed.
+2023.05.24 10:32:36 WARN  web[][o.s.db.dialect.H2] H2 database should be used for evaluation purpose only.
+2023.05.24 10:32:37 INFO  web[][o.s.s.p.ServerFileSystemImpl] SonarQube home: C:\Users\Villa\OneDrive\Escritorio\JESUS USACH\Mingeso-2023-1\sonarqube-9.9.0.65466
+2023.05.24 10:32:37 INFO  web[][o.s.s.u.SystemPasscodeImpl] System authentication by passcode is disabled
+2023.05.24 10:32:37 INFO  web[][o.s.s.p.ServerPluginManager] Deploy C# Code Quality and Security / 8.51.0.59060 / e14c642f118958f22fd08841dc42f9aae480366a
+2023.05.24 10:32:37 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Configuration detection fot Code Quality and Security / 1.2.0.267 / 4f37ba9ffb37a96d5883e52ad392ed32c5c6eaab
+2023.05.24 10:32:37 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Flex Code Quality and Security / 2.8.0.3166 / 01f66bdddc678966c81a9064ed139156a6a89c97
+2023.05.24 10:32:37 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Go Code Quality and Security / 1.11.0.3905 / e1f28bc000e04ca01881e84218d01d464a17a36f
+2023.05.24 10:32:37 INFO  web[][o.s.s.p.ServerPluginManager] Deploy HTML Code Quality and Security / 3.7.1.3306 / d720acc6860c6d8b69ec4d17570a398a1e216da1
+2023.05.24 10:32:37 INFO  web[][o.s.s.p.ServerPluginManager] Deploy IaC Code Quality and Security / 1.11.0.2847 / 6892bd3a7320b3c110717acfdb18c4c7451069fd
+2023.05.24 10:32:37 INFO  web[][o.s.s.p.ServerPluginManager] Deploy JaCoCo / 1.3.0.1538 / 74a7798c7cea687c72ed9df40c93eb7ea2a58c49
+2023.05.24 10:32:37 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Java Code Quality and Security / 7.16.0.30901 / 4b1436558dfd5fc00c8d9aae8bb0364ba122c73e
+2023.05.24 10:32:37 INFO  web[][o.s.s.p.ServerPluginManager] Deploy JavaScript/TypeScript/CSS Code Quality and Security / 9.13.0.20537 / 68ff7657415044b86033814795ed95fc1f1558f1
+2023.05.24 10:32:37 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Kotlin Code Quality and Security / 2.12.0.1956 / a6df1ae252bd62d63f8673c28f87ad14258a7904
+2023.05.24 10:32:37 INFO  web[][o.s.s.p.ServerPluginManager] Deploy PHP Code Quality and Security / 3.27.1.9352 / 3ddc5a03e1a7e3729d41e7c1a30a37d5715958c7
+2023.05.24 10:32:37 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Python Code Quality and Security / 3.24.0.10784 / 30aa413d983f6c37b4298eba00555c3050009b52
+2023.05.24 10:32:37 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Ruby Code Quality and Security / 1.11.0.3905 / e1f28bc000e04ca01881e84218d01d464a17a36f
+2023.05.24 10:32:37 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Scala Code Quality and Security / 1.11.0.3905 / e1f28bc000e04ca01881e84218d01d464a17a36f
+2023.05.24 10:32:37 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Text Code Quality and Security / 2.0.1.611 / 53bfe3a68ae3886520d6a5c1c21dfdb564821ea1
+2023.05.24 10:32:37 INFO  web[][o.s.s.p.ServerPluginManager] Deploy VB.NET Code Quality and Security / 8.51.0.59060 / e14c642f118958f22fd08841dc42f9aae480366a
+2023.05.24 10:32:37 INFO  web[][o.s.s.p.ServerPluginManager] Deploy XML Code Quality and Security / 2.7.0.3820 / 656bccc1910d50c8984536bd2dfd917066b858e6
+2023.05.24 10:32:56 INFO  web[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [http://kubernetes.docker.internal:9001]
+2023.05.24 10:32:57 WARN  web[][o.s.a.s.w.WebService$Action] Description is not set on action api/monitoring/metrics
+2023.05.24 10:32:57 WARN  web[][o.s.a.s.w.WebService$Action] Since is not set on action api/monitoring/metrics
+2023.05.24 10:32:57 WARN  web[][o.s.a.s.w.WebService$Action] The response example is not set on action api/monitoring/metrics
+2023.05.24 10:32:57 WARN  web[][o.s.a.s.w.WebService$Action] The response example is not set on action api/system/liveness
+2023.05.24 10:32:57 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.platform.web.WebServiceFilter@62e73ab6 [pattern=UrlPattern{inclusions=[/api/system/migrate_db.*, ...], exclusions=[/api/components/update_key, ...]}]
+2023.05.24 10:32:57 INFO  web[][o.s.s.p.DetectPluginChange] Detect plugin changes
+2023.05.24 10:32:57 INFO  web[][o.s.s.p.DetectPluginChange] No plugin change detected
+2023.05.24 10:32:57 INFO  web[][o.s.s.a.EmbeddedTomcat] HTTP connector enabled on port 9000
+2023.05.24 10:33:00 INFO  web[][o.s.s.s.LogServerId] Server ID: 147B411E-AYhMVTUxXJ7xJPJyBu1U
+2023.05.24 10:33:00 WARN  web[][o.s.s.a.LogOAuthWarning] For security reasons, OAuth authentication should use HTTPS. You should set the property 'Administration > Configuration > Server base URL' to a HTTPS URL.
+2023.05.24 10:33:00 INFO  web[][o.s.s.p.UpdateCenterClient] Update center: https://update.sonarsource.org/update-center.properties (no proxy)
+2023.05.24 10:33:03 WARN  web[][o.s.a.s.w.WebService$Action] The response example is not set on action saml/validation_init
+2023.05.24 10:33:03 WARN  web[][o.s.a.s.w.WebService$Action] The response example is not set on action api/system/liveness
+2023.05.24 10:33:03 WARN  web[][o.s.a.s.w.WebService$Action] The response example is not set on action api/plugins/download
+2023.05.24 10:33:03 WARN  web[][o.s.a.s.w.WebService$Action] The response example is not set on action api/analysis_cache/get
+2023.05.24 10:33:03 WARN  web[][o.s.a.s.w.WebService$Action] The response example is not set on action api/alm_integrations/check_pat
+2023.05.24 10:33:03 WARN  web[][o.s.a.s.w.WebService$Action] The response example is not set on action api/push/sonarlint_events
+2023.05.24 10:33:03 INFO  web[][o.s.s.a.p.ExpiredSessionsCleaner] Purge of expired session tokens has removed 0 elements
+2023.05.24 10:33:03 INFO  web[][o.s.s.a.p.ExpiredSessionsCleaner] Purge of expired SAML message ids has removed 0 elements
+2023.05.24 10:33:03 INFO  web[][o.s.s.n.NotificationDaemon] Notification service started (delay 60 sec.)
+2023.05.24 10:33:03 INFO  web[][o.s.s.t.TelemetryDaemon] Sharing of SonarQube statistics is enabled.
+2023.05.24 10:33:03 INFO  web[][o.s.s.s.GeneratePluginIndex] Generate scanner plugin index
+2023.05.24 10:33:03 INFO  web[][o.s.s.s.RegisterPermissionTemplates] Register permission templates
+2023.05.24 10:33:03 INFO  web[][o.s.s.s.RenameDeprecatedPropertyKeys] Rename deprecated property keys
+2023.05.24 10:33:03 INFO  web[][o.s.s.s.RegisterPlugins] Register plugins
+2023.05.24 10:33:03 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.platform.web.SonarLintConnectionFilter@4f7dd4cc [pattern=UrlPattern{inclusions=[/api/*], exclusions=[]}]
+2023.05.24 10:33:03 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.platform.web.WebServiceFilter@3b03b7ff [pattern=UrlPattern{inclusions=[/api/issues/delete_comment.*, ...], exclusions=[/api/authentication/login.*, ...]}]
+2023.05.24 10:33:03 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.platform.web.WebServiceReroutingFilter@1bb4e927 [pattern=UrlPattern{inclusions=[/api/components/bulk_update_key, ...], exclusions=[]}]
+2023.05.24 10:33:04 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.DefaultAdminCredentialsVerifierFilter@69c75bb5 [pattern=UrlPattern{inclusions=[/*], exclusions=[*.css, ...]}]
+2023.05.24 10:33:04 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.InitFilter@483d29f5 [pattern=UrlPattern{inclusions=[/sessions/init/*], exclusions=[]}]
+2023.05.24 10:33:04 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.SamlValidationRedirectionFilter@6e27c342 [pattern=UrlPattern{inclusions=[/oauth2/callback/saml], exclusions=[]}]
+2023.05.24 10:33:04 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.OAuth2CallbackFilter@52e6e270 [pattern=UrlPattern{inclusions=[/oauth2/callback/*], exclusions=[]}]
+2023.05.24 10:33:04 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ResetPasswordFilter@12f016a [pattern=UrlPattern{inclusions=[/*], exclusions=[*.css, ...]}]
+2023.05.24 10:33:04 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LoginAction@41625892 [pattern=UrlPattern{inclusions=[/api/authentication/login], exclusions=[]}]
+2023.05.24 10:33:04 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LogoutAction@6d3f7ad [pattern=UrlPattern{inclusions=[/api/authentication/logout], exclusions=[]}]
+2023.05.24 10:33:04 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.ValidateAction@256aaf26 [pattern=UrlPattern{inclusions=[/api/authentication/validate], exclusions=[]}]
+2023.05.24 10:33:04 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.saml.ws.ValidationInitAction@33233e54 [pattern=UrlPattern{inclusions=[/saml/validation_init], exclusions=[]}]
+2023.05.24 10:33:04 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.saml.ws.ValidationAction@185cbc88 [pattern=UrlPattern{inclusions=[/saml/validation], exclusions=[]}]
+2023.05.24 10:33:04 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.user.ws.ChangePasswordAction@207ce23b [pattern=UrlPattern{inclusions=[/api/users/change_password], exclusions=[]}]
+2023.05.24 10:33:04 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.plugins.PluginsRiskConsentFilter@701118a5 [pattern=UrlPattern{inclusions=[/*], exclusions=[*.css, ...]}]
+2023.05.24 10:33:04 INFO  web[][o.s.s.q.ProjectsInWarningDaemon] Counting number of projects in warning is not started as there are no projects in this situation.
+2023.05.24 10:33:04 INFO  web[][o.s.s.p.p.PlatformLevelStartup] Running Community Edition
+2023.05.24 10:33:04 INFO  web[][o.s.s.p.Platform] Web Server is operational
+2023.05.24 10:55:19 INFO  web[AYhOQVYBz2lFu8XvAAAy][o.s.u.c.UpdateCenter] The plugin 'config' version : 1.2.0.267 has not been found on the update center.
+2023.05.24 10:55:19 INFO  web[AYhOQVYBz2lFu8XvAAAy][o.s.u.c.UpdateCenter] The plugin 'csharp' version : 8.51.0.59060 has not been found on the update center.
+2023.05.24 10:55:19 INFO  web[AYhOQVYBz2lFu8XvAAAy][o.s.u.c.UpdateCenter] The plugin 'flex' version : 2.8.0.3166 has not been found on the update center.
+2023.05.24 10:55:19 INFO  web[AYhOQVYBz2lFu8XvAAAy][o.s.u.c.UpdateCenter] The plugin 'go' version : 1.11.0.3905 has not been found on the update center.
+2023.05.24 10:55:19 INFO  web[AYhOQVYBz2lFu8XvAAAy][o.s.u.c.UpdateCenter] The plugin 'iac' version : 1.11.0.2847 has not been found on the update center.
+2023.05.24 10:55:19 INFO  web[AYhOQVYBz2lFu8XvAAAy][o.s.u.c.UpdateCenter] The plugin 'jacoco' version : 1.3.0.1538 has not been found on the update center.
+2023.05.24 10:55:19 INFO  web[AYhOQVYBz2lFu8XvAAAy][o.s.u.c.UpdateCenter] The plugin 'java' version : 7.16.0.30901 has not been found on the update center.
+2023.05.24 10:55:19 INFO  web[AYhOQVYBz2lFu8XvAAAy][o.s.u.c.UpdateCenter] The plugin 'javascript' version : 9.13.0.20537 has not been found on the update center.
+2023.05.24 10:55:19 INFO  web[AYhOQVYBz2lFu8XvAAAy][o.s.u.c.UpdateCenter] The plugin 'kotlin' version : 2.12.0.1956 has not been found on the update center.
+2023.05.24 10:55:19 INFO  web[AYhOQVYBz2lFu8XvAAAy][o.s.u.c.UpdateCenter] The plugin 'php' version : 3.27.1.9352 has not been found on the update center.
+2023.05.24 10:55:19 INFO  web[AYhOQVYBz2lFu8XvAAAy][o.s.u.c.UpdateCenter] The plugin 'python' version : 3.24.0.10784 has not been found on the update center.
+2023.05.24 10:55:19 INFO  web[AYhOQVYBz2lFu8XvAAAy][o.s.u.c.UpdateCenter] The plugin 'ruby' version : 1.11.0.3905 has not been found on the update center.
+2023.05.24 10:55:19 INFO  web[AYhOQVYBz2lFu8XvAAAy][o.s.u.c.UpdateCenter] The plugin 'sonarscala' version : 1.11.0.3905 has not been found on the update center.
+2023.05.24 10:55:19 INFO  web[AYhOQVYBz2lFu8XvAAAy][o.s.u.c.UpdateCenter] The plugin 'text' version : 2.0.1.611 has not been found on the update center.
+2023.05.24 10:55:19 INFO  web[AYhOQVYBz2lFu8XvAAAy][o.s.u.c.UpdateCenter] The plugin 'vbnet' version : 8.51.0.59060 has not been found on the update center.
+2023.05.24 10:55:19 INFO  web[AYhOQVYBz2lFu8XvAAAy][o.s.u.c.UpdateCenter] The plugin 'web' version : 3.7.1.3306 has not been found on the update center.
+2023.05.24 10:55:19 INFO  web[AYhOQVYBz2lFu8XvAAAy][o.s.u.c.UpdateCenter] The plugin 'xml' version : 2.7.0.3820 has not been found on the update center.
+2023.05.24 10:55:19 INFO  web[AYhOQVYBz2lFu8XvAAAy][o.s.u.c.UpdateCenter] The plugin 'config' version : 1.2.0.267 has not been found on the update center.
+2023.05.24 10:55:19 INFO  web[AYhOQVYBz2lFu8XvAAAy][o.s.u.c.UpdateCenter] The plugin 'csharp' version : 8.51.0.59060 has not been found on the update center.
+2023.05.24 10:55:19 INFO  web[AYhOQVYBz2lFu8XvAAAy][o.s.u.c.UpdateCenter] The plugin 'flex' version : 2.8.0.3166 has not been found on the update center.
+2023.05.24 10:55:19 INFO  web[AYhOQVYBz2lFu8XvAAAy][o.s.u.c.UpdateCenter] The plugin 'go' version : 1.11.0.3905 has not been found on the update center.
+2023.05.24 10:55:19 INFO  web[AYhOQVYBz2lFu8XvAAAy][o.s.u.c.UpdateCenter] The plugin 'iac' version : 1.11.0.2847 has not been found on the update center.
+2023.05.24 10:55:19 INFO  web[AYhOQVYBz2lFu8XvAAAy][o.s.u.c.UpdateCenter] The plugin 'jacoco' version : 1.3.0.1538 has not been found on the update center.
+2023.05.24 10:55:19 INFO  web[AYhOQVYBz2lFu8XvAAAy][o.s.u.c.UpdateCenter] The plugin 'java' version : 7.16.0.30901 has not been found on the update center.
+2023.05.24 10:55:19 INFO  web[AYhOQVYBz2lFu8XvAAAy][o.s.u.c.UpdateCenter] The plugin 'javascript' version : 9.13.0.20537 has not been found on the update center.
+2023.05.24 10:55:19 INFO  web[AYhOQVYBz2lFu8XvAAAy][o.s.u.c.UpdateCenter] The plugin 'kotlin' version : 2.12.0.1956 has not been found on the update center.
+2023.05.24 10:55:19 INFO  web[AYhOQVYBz2lFu8XvAAAy][o.s.u.c.UpdateCenter] The plugin 'php' version : 3.27.1.9352 has not been found on the update center.
+2023.05.24 10:55:19 INFO  web[AYhOQVYBz2lFu8XvAAAy][o.s.u.c.UpdateCenter] The plugin 'python' version : 3.24.0.10784 has not been found on the update center.
+2023.05.24 10:55:19 INFO  web[AYhOQVYBz2lFu8XvAAAy][o.s.u.c.UpdateCenter] The plugin 'ruby' version : 1.11.0.3905 has not been found on the update center.
+2023.05.24 10:55:19 INFO  web[AYhOQVYBz2lFu8XvAAAy][o.s.u.c.UpdateCenter] The plugin 'sonarscala' version : 1.11.0.3905 has not been found on the update center.
+2023.05.24 10:55:19 INFO  web[AYhOQVYBz2lFu8XvAAAy][o.s.u.c.UpdateCenter] The plugin 'text' version : 2.0.1.611 has not been found on the update center.
+2023.05.24 10:55:19 INFO  web[AYhOQVYBz2lFu8XvAAAy][o.s.u.c.UpdateCenter] The plugin 'vbnet' version : 8.51.0.59060 has not been found on the update center.
+2023.05.24 10:55:19 INFO  web[AYhOQVYBz2lFu8XvAAAy][o.s.u.c.UpdateCenter] The plugin 'web' version : 3.7.1.3306 has not been found on the update center.
+2023.05.24 10:55:19 INFO  web[AYhOQVYBz2lFu8XvAAAy][o.s.u.c.UpdateCenter] The plugin 'xml' version : 2.7.0.3820 has not been found on the update center.
+2023.05.24 12:32:15 INFO  web[][o.s.p.ProcessEntryPoint] Starting Web Server
+2023.05.24 12:32:16 INFO  web[][o.s.s.p.LogServerVersion] SonarQube Server / 9.9.0.65466 / ce743843018827cb30c05735e7971523de34bb48
+2023.05.24 12:32:17 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Starting embedded database on port 9092 with url jdbc:h2:tcp://127.0.0.1:9092/sonar;NON_KEYWORDS=VALUE
+2023.05.24 12:32:17 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Embedded database started. Data stored in: C:\Users\Villa\OneDrive\Escritorio\JESUS USACH\Mingeso-2023-1\sonarqube-9.9.0.65466\data
+2023.05.24 12:32:17 INFO  web[][o.sonar.db.Database] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar;NON_KEYWORDS=VALUE
+2023.05.24 12:32:17 INFO  web[][c.z.h.HikariDataSource] HikariPool-1 - Starting...
+2023.05.24 12:32:17 INFO  web[][c.z.h.p.HikariPool] HikariPool-1 - Added connection conn2: url=jdbc:h2:tcp://127.0.0.1:9092/sonar user=
+2023.05.24 12:32:17 INFO  web[][c.z.h.HikariDataSource] HikariPool-1 - Start completed.
+2023.05.24 12:32:17 WARN  web[][o.s.db.dialect.H2] H2 database should be used for evaluation purpose only.
+2023.05.24 12:32:19 INFO  web[][o.s.s.p.ServerFileSystemImpl] SonarQube home: C:\Users\Villa\OneDrive\Escritorio\JESUS USACH\Mingeso-2023-1\sonarqube-9.9.0.65466
+2023.05.24 12:32:19 INFO  web[][o.s.s.u.SystemPasscodeImpl] System authentication by passcode is disabled
+2023.05.24 12:32:19 INFO  web[][o.s.s.p.ServerPluginManager] Deploy C# Code Quality and Security / 8.51.0.59060 / e14c642f118958f22fd08841dc42f9aae480366a
+2023.05.24 12:32:19 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Configuration detection fot Code Quality and Security / 1.2.0.267 / 4f37ba9ffb37a96d5883e52ad392ed32c5c6eaab
+2023.05.24 12:32:19 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Flex Code Quality and Security / 2.8.0.3166 / 01f66bdddc678966c81a9064ed139156a6a89c97
+2023.05.24 12:32:19 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Go Code Quality and Security / 1.11.0.3905 / e1f28bc000e04ca01881e84218d01d464a17a36f
+2023.05.24 12:32:19 INFO  web[][o.s.s.p.ServerPluginManager] Deploy HTML Code Quality and Security / 3.7.1.3306 / d720acc6860c6d8b69ec4d17570a398a1e216da1
+2023.05.24 12:32:19 INFO  web[][o.s.s.p.ServerPluginManager] Deploy IaC Code Quality and Security / 1.11.0.2847 / 6892bd3a7320b3c110717acfdb18c4c7451069fd
+2023.05.24 12:32:19 INFO  web[][o.s.s.p.ServerPluginManager] Deploy JaCoCo / 1.3.0.1538 / 74a7798c7cea687c72ed9df40c93eb7ea2a58c49
+2023.05.24 12:32:19 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Java Code Quality and Security / 7.16.0.30901 / 4b1436558dfd5fc00c8d9aae8bb0364ba122c73e
+2023.05.24 12:32:19 INFO  web[][o.s.s.p.ServerPluginManager] Deploy JavaScript/TypeScript/CSS Code Quality and Security / 9.13.0.20537 / 68ff7657415044b86033814795ed95fc1f1558f1
+2023.05.24 12:32:19 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Kotlin Code Quality and Security / 2.12.0.1956 / a6df1ae252bd62d63f8673c28f87ad14258a7904
+2023.05.24 12:32:19 INFO  web[][o.s.s.p.ServerPluginManager] Deploy PHP Code Quality and Security / 3.27.1.9352 / 3ddc5a03e1a7e3729d41e7c1a30a37d5715958c7
+2023.05.24 12:32:19 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Python Code Quality and Security / 3.24.0.10784 / 30aa413d983f6c37b4298eba00555c3050009b52
+2023.05.24 12:32:19 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Ruby Code Quality and Security / 1.11.0.3905 / e1f28bc000e04ca01881e84218d01d464a17a36f
+2023.05.24 12:32:19 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Scala Code Quality and Security / 1.11.0.3905 / e1f28bc000e04ca01881e84218d01d464a17a36f
+2023.05.24 12:32:19 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Text Code Quality and Security / 2.0.1.611 / 53bfe3a68ae3886520d6a5c1c21dfdb564821ea1
+2023.05.24 12:32:19 INFO  web[][o.s.s.p.ServerPluginManager] Deploy VB.NET Code Quality and Security / 8.51.0.59060 / e14c642f118958f22fd08841dc42f9aae480366a
+2023.05.24 12:32:19 INFO  web[][o.s.s.p.ServerPluginManager] Deploy XML Code Quality and Security / 2.7.0.3820 / 656bccc1910d50c8984536bd2dfd917066b858e6
+2023.05.24 12:32:38 INFO  web[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [http://kubernetes.docker.internal:9001]
+2023.05.24 12:32:39 WARN  web[][o.s.a.s.w.WebService$Action] Description is not set on action api/monitoring/metrics
+2023.05.24 12:32:39 WARN  web[][o.s.a.s.w.WebService$Action] Since is not set on action api/monitoring/metrics
+2023.05.24 12:32:39 WARN  web[][o.s.a.s.w.WebService$Action] The response example is not set on action api/monitoring/metrics
+2023.05.24 12:32:39 WARN  web[][o.s.a.s.w.WebService$Action] The response example is not set on action api/system/liveness
+2023.05.24 12:32:39 INFO  web[][o.s.s.p.DetectPluginChange] Detect plugin changes
+2023.05.24 12:32:39 INFO  web[][o.s.s.p.DetectPluginChange] No plugin change detected
+2023.05.24 12:32:39 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.platform.web.WebServiceFilter@62e73ab6 [pattern=UrlPattern{inclusions=[/api/system/migrate_db.*, ...], exclusions=[/api/components/update_key, ...]}]
+2023.05.24 12:32:40 INFO  web[][o.s.s.a.EmbeddedTomcat] HTTP connector enabled on port 9000
+2023.05.24 12:32:44 INFO  web[][o.s.s.s.LogServerId] Server ID: 147B411E-AYhMVTUxXJ7xJPJyBu1U
+2023.05.24 12:32:44 WARN  web[][o.s.s.a.LogOAuthWarning] For security reasons, OAuth authentication should use HTTPS. You should set the property 'Administration > Configuration > Server base URL' to a HTTPS URL.
+2023.05.24 12:32:44 INFO  web[][o.s.s.p.UpdateCenterClient] Update center: https://update.sonarsource.org/update-center.properties (no proxy)
+2023.05.24 12:32:47 WARN  web[][o.s.a.s.w.WebService$Action] The response example is not set on action saml/validation_init
+2023.05.24 12:32:47 WARN  web[][o.s.a.s.w.WebService$Action] The response example is not set on action api/system/liveness
+2023.05.24 12:32:47 WARN  web[][o.s.a.s.w.WebService$Action] The response example is not set on action api/plugins/download
+2023.05.24 12:32:47 WARN  web[][o.s.a.s.w.WebService$Action] The response example is not set on action api/analysis_cache/get
+2023.05.24 12:32:47 WARN  web[][o.s.a.s.w.WebService$Action] The response example is not set on action api/alm_integrations/check_pat
+2023.05.24 12:32:47 WARN  web[][o.s.a.s.w.WebService$Action] The response example is not set on action api/push/sonarlint_events
+2023.05.24 12:32:47 INFO  web[][o.s.s.a.p.ExpiredSessionsCleaner] Purge of expired session tokens has removed 0 elements
+2023.05.24 12:32:47 INFO  web[][o.s.s.a.p.ExpiredSessionsCleaner] Purge of expired SAML message ids has removed 0 elements
+2023.05.24 12:32:47 INFO  web[][o.s.s.n.NotificationDaemon] Notification service started (delay 60 sec.)
+2023.05.24 12:32:47 INFO  web[][o.s.s.t.TelemetryDaemon] Sharing of SonarQube statistics is enabled.
+2023.05.24 12:32:48 INFO  web[][o.s.s.s.GeneratePluginIndex] Generate scanner plugin index
+2023.05.24 12:32:48 INFO  web[][o.s.s.s.RegisterPermissionTemplates] Register permission templates
+2023.05.24 12:32:48 INFO  web[][o.s.s.s.RenameDeprecatedPropertyKeys] Rename deprecated property keys
+2023.05.24 12:32:48 INFO  web[][o.s.s.s.RegisterPlugins] Register plugins
+2023.05.24 12:32:48 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.platform.web.SonarLintConnectionFilter@1a263aac [pattern=UrlPattern{inclusions=[/api/*], exclusions=[]}]
+2023.05.24 12:32:48 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.platform.web.WebServiceFilter@17e94677 [pattern=UrlPattern{inclusions=[/api/issues/delete_comment.*, ...], exclusions=[/api/authentication/login.*, ...]}]
+2023.05.24 12:32:48 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.platform.web.WebServiceReroutingFilter@4886b9e4 [pattern=UrlPattern{inclusions=[/api/components/bulk_update_key, ...], exclusions=[]}]
+2023.05.24 12:32:48 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.DefaultAdminCredentialsVerifierFilter@c084c2c [pattern=UrlPattern{inclusions=[/*], exclusions=[*.css, ...]}]
+2023.05.24 12:32:48 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.InitFilter@27d0f45b [pattern=UrlPattern{inclusions=[/sessions/init/*], exclusions=[]}]
+2023.05.24 12:32:48 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.SamlValidationRedirectionFilter@7a57c428 [pattern=UrlPattern{inclusions=[/oauth2/callback/saml], exclusions=[]}]
+2023.05.24 12:32:48 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.OAuth2CallbackFilter@7630b1f [pattern=UrlPattern{inclusions=[/oauth2/callback/*], exclusions=[]}]
+2023.05.24 12:32:48 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ResetPasswordFilter@49c45ef3 [pattern=UrlPattern{inclusions=[/*], exclusions=[*.css, ...]}]
+2023.05.24 12:32:48 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LoginAction@1fecfe84 [pattern=UrlPattern{inclusions=[/api/authentication/login], exclusions=[]}]
+2023.05.24 12:32:48 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LogoutAction@63b173f8 [pattern=UrlPattern{inclusions=[/api/authentication/logout], exclusions=[]}]
+2023.05.24 12:32:48 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.ValidateAction@5876ee5d [pattern=UrlPattern{inclusions=[/api/authentication/validate], exclusions=[]}]
+2023.05.24 12:32:48 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.saml.ws.ValidationInitAction@6e901c50 [pattern=UrlPattern{inclusions=[/saml/validation_init], exclusions=[]}]
+2023.05.24 12:32:48 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.saml.ws.ValidationAction@44c162dd [pattern=UrlPattern{inclusions=[/saml/validation], exclusions=[]}]
+2023.05.24 12:32:48 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.user.ws.ChangePasswordAction@699609bc [pattern=UrlPattern{inclusions=[/api/users/change_password], exclusions=[]}]
+2023.05.24 12:32:48 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.plugins.PluginsRiskConsentFilter@2da4f622 [pattern=UrlPattern{inclusions=[/*], exclusions=[*.css, ...]}]
+2023.05.24 12:32:48 INFO  web[][o.s.s.q.ProjectsInWarningDaemon] Counting number of projects in warning is not started as there are no projects in this situation.
+2023.05.24 12:32:48 INFO  web[][o.s.s.p.p.PlatformLevelStartup] Running Community Edition
+2023.05.24 12:32:48 INFO  web[][o.s.s.p.Platform] Web Server is operational
+2023.05.24 12:49:50 INFO  web[AYhOpAJ5vwi9EmotAAAy][o.s.u.c.UpdateCenter] The plugin 'config' version : 1.2.0.267 has not been found on the update center.
+2023.05.24 12:49:50 INFO  web[AYhOpAJ5vwi9EmotAAAy][o.s.u.c.UpdateCenter] The plugin 'csharp' version : 8.51.0.59060 has not been found on the update center.
+2023.05.24 12:49:50 INFO  web[AYhOpAJ5vwi9EmotAAAy][o.s.u.c.UpdateCenter] The plugin 'flex' version : 2.8.0.3166 has not been found on the update center.
+2023.05.24 12:49:50 INFO  web[AYhOpAJ5vwi9EmotAAAy][o.s.u.c.UpdateCenter] The plugin 'go' version : 1.11.0.3905 has not been found on the update center.
+2023.05.24 12:49:50 INFO  web[AYhOpAJ5vwi9EmotAAAy][o.s.u.c.UpdateCenter] The plugin 'iac' version : 1.11.0.2847 has not been found on the update center.
+2023.05.24 12:49:50 INFO  web[AYhOpAJ5vwi9EmotAAAy][o.s.u.c.UpdateCenter] The plugin 'jacoco' version : 1.3.0.1538 has not been found on the update center.
+2023.05.24 12:49:50 INFO  web[AYhOpAJ5vwi9EmotAAAy][o.s.u.c.UpdateCenter] The plugin 'java' version : 7.16.0.30901 has not been found on the update center.
+2023.05.24 12:49:50 INFO  web[AYhOpAJ5vwi9EmotAAAy][o.s.u.c.UpdateCenter] The plugin 'javascript' version : 9.13.0.20537 has not been found on the update center.
+2023.05.24 12:49:50 INFO  web[AYhOpAJ5vwi9EmotAAAy][o.s.u.c.UpdateCenter] The plugin 'kotlin' version : 2.12.0.1956 has not been found on the update center.
+2023.05.24 12:49:50 INFO  web[AYhOpAJ5vwi9EmotAAAy][o.s.u.c.UpdateCenter] The plugin 'php' version : 3.27.1.9352 has not been found on the update center.
+2023.05.24 12:49:50 INFO  web[AYhOpAJ5vwi9EmotAAAy][o.s.u.c.UpdateCenter] The plugin 'python' version : 3.24.0.10784 has not been found on the update center.
+2023.05.24 12:49:50 INFO  web[AYhOpAJ5vwi9EmotAAAy][o.s.u.c.UpdateCenter] The plugin 'ruby' version : 1.11.0.3905 has not been found on the update center.
+2023.05.24 12:49:50 INFO  web[AYhOpAJ5vwi9EmotAAAy][o.s.u.c.UpdateCenter] The plugin 'sonarscala' version : 1.11.0.3905 has not been found on the update center.
+2023.05.24 12:49:50 INFO  web[AYhOpAJ5vwi9EmotAAAy][o.s.u.c.UpdateCenter] The plugin 'text' version : 2.0.1.611 has not been found on the update center.
+2023.05.24 12:49:50 INFO  web[AYhOpAJ5vwi9EmotAAAy][o.s.u.c.UpdateCenter] The plugin 'vbnet' version : 8.51.0.59060 has not been found on the update center.
+2023.05.24 12:49:50 INFO  web[AYhOpAJ5vwi9EmotAAAy][o.s.u.c.UpdateCenter] The plugin 'web' version : 3.7.1.3306 has not been found on the update center.
+2023.05.24 12:49:50 INFO  web[AYhOpAJ5vwi9EmotAAAy][o.s.u.c.UpdateCenter] The plugin 'xml' version : 2.7.0.3820 has not been found on the update center.
+2023.05.24 12:49:50 INFO  web[AYhOpAJ5vwi9EmotAAAy][o.s.u.c.UpdateCenter] The plugin 'config' version : 1.2.0.267 has not been found on the update center.
+2023.05.24 12:49:50 INFO  web[AYhOpAJ5vwi9EmotAAAy][o.s.u.c.UpdateCenter] The plugin 'csharp' version : 8.51.0.59060 has not been found on the update center.
+2023.05.24 12:49:50 INFO  web[AYhOpAJ5vwi9EmotAAAy][o.s.u.c.UpdateCenter] The plugin 'flex' version : 2.8.0.3166 has not been found on the update center.
+2023.05.24 12:49:50 INFO  web[AYhOpAJ5vwi9EmotAAAy][o.s.u.c.UpdateCenter] The plugin 'go' version : 1.11.0.3905 has not been found on the update center.
+2023.05.24 12:49:50 INFO  web[AYhOpAJ5vwi9EmotAAAy][o.s.u.c.UpdateCenter] The plugin 'iac' version : 1.11.0.2847 has not been found on the update center.
+2023.05.24 12:49:50 INFO  web[AYhOpAJ5vwi9EmotAAAy][o.s.u.c.UpdateCenter] The plugin 'jacoco' version : 1.3.0.1538 has not been found on the update center.
+2023.05.24 12:49:50 INFO  web[AYhOpAJ5vwi9EmotAAAy][o.s.u.c.UpdateCenter] The plugin 'java' version : 7.16.0.30901 has not been found on the update center.
+2023.05.24 12:49:50 INFO  web[AYhOpAJ5vwi9EmotAAAy][o.s.u.c.UpdateCenter] The plugin 'javascript' version : 9.13.0.20537 has not been found on the update center.
+2023.05.24 12:49:50 INFO  web[AYhOpAJ5vwi9EmotAAAy][o.s.u.c.UpdateCenter] The plugin 'kotlin' version : 2.12.0.1956 has not been found on the update center.
+2023.05.24 12:49:50 INFO  web[AYhOpAJ5vwi9EmotAAAy][o.s.u.c.UpdateCenter] The plugin 'php' version : 3.27.1.9352 has not been found on the update center.
+2023.05.24 12:49:50 INFO  web[AYhOpAJ5vwi9EmotAAAy][o.s.u.c.UpdateCenter] The plugin 'python' version : 3.24.0.10784 has not been found on the update center.
+2023.05.24 12:49:50 INFO  web[AYhOpAJ5vwi9EmotAAAy][o.s.u.c.UpdateCenter] The plugin 'ruby' version : 1.11.0.3905 has not been found on the update center.
+2023.05.24 12:49:50 INFO  web[AYhOpAJ5vwi9EmotAAAy][o.s.u.c.UpdateCenter] The plugin 'sonarscala' version : 1.11.0.3905 has not been found on the update center.
+2023.05.24 12:49:50 INFO  web[AYhOpAJ5vwi9EmotAAAy][o.s.u.c.UpdateCenter] The plugin 'text' version : 2.0.1.611 has not been found on the update center.
+2023.05.24 12:49:50 INFO  web[AYhOpAJ5vwi9EmotAAAy][o.s.u.c.UpdateCenter] The plugin 'vbnet' version : 8.51.0.59060 has not been found on the update center.
+2023.05.24 12:49:50 INFO  web[AYhOpAJ5vwi9EmotAAAy][o.s.u.c.UpdateCenter] The plugin 'web' version : 3.7.1.3306 has not been found on the update center.
+2023.05.24 12:49:50 INFO  web[AYhOpAJ5vwi9EmotAAAy][o.s.u.c.UpdateCenter] The plugin 'xml' version : 2.7.0.3820 has not been found on the update center.
+2023.05.24 12:57:59 INFO  web[][o.s.p.ProcessEntryPoint] Gracefully stopping process
+2023.05.24 12:57:59 INFO  web[][o.s.s.n.NotificationDaemon] Notification service stopped
+2023.05.24 12:57:59 INFO  web[][c.z.h.HikariDataSource] HikariPool-1 - Shutdown initiated...
+2023.05.24 12:57:59 INFO  web[][c.z.h.HikariDataSource] HikariPool-1 - Shutdown completed.
+2023.05.24 12:57:59 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Embedded database stopped
+2023.05.24 12:57:59 INFO  web[][o.s.s.app.WebServer] Web Server stopped

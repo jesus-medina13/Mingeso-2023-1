@@ -151,7 +151,7 @@ public class PlanillaService {
         }
     }
 
-    private double calcularTotalKlsLeche(List<Acopio> acopios) {
+    public double calcularTotalKlsLeche(List<Acopio> acopios) {
         double totalKlsLeche = 0.0;
         for (Acopio acopio : acopios) {
             totalKlsLeche += parseDouble(acopio.getKls_leche());
@@ -170,7 +170,7 @@ public class PlanillaService {
         }
     }
 
-    private double verificarTurnoProveedor(List<Acopio> acopios) {
+    public static double verificarTurnoProveedor(List<Acopio> acopios) {
         boolean turnoM = false;
         boolean turnoT = false;
 
@@ -195,6 +195,7 @@ public class PlanillaService {
             return 0;
         }
     }
+
     public List<Planilla> obtenerTodasLasPlanillas() {
         return planillaRepository.findAll();
     }
