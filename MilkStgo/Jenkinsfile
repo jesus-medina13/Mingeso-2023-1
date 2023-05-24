@@ -1,0 +1,56 @@
+pipeline{
+    agent any
+    tools{
+        maven "maven"
+    }
+    stages{
+        stage("Build JAR File"){
+            steps{
+                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/jesus-medina13/Mingeso-2023-1.git']])
+                dir("MilkStgo"){
+                    sh "ls"
+                    sh "mvn clean install"
+                }
+            }
+        }
+        stage("Test"){
+            steps{
+                dir("MilkStgo"){
+                    sh "mvn test"
+                }
+            }
+        }
+        stage("SonarQube Analysis"){
+            steps{
+                dir("MilkStgo"){
+                    sh "mvn clean verify sonar:sonar -Dsonar.projectKey=milkstgo -Dsonar.host.url=http://localhost:9000 -Dsonar.login=sqp_295fc611799b19a08caa39dba6f41c44dc8a2381"
+                }
+            }
+        }
+        stage("Build Docker Image"){
+            steps{
+                dir("MilkStgo"){
+                    sh "docker build -t jesusmedina13/pep1 ."
+                }
+            }
+        }
+        stage("Push Docker Image"){
+            steps{
+                dir("MilkStgo"){
+                    withCredentials([string(credentialsId: 'dckrhubpassword', variable: 'dckpass')]){
+                        sh "docker login -u jesusmedina13 -p ${dckpass}"
+
+                    }
+                    sh "docker push jesusmedina13/pep1"
+                }
+            }
+        }
+    }
+    post{
+        always{
+            dir("MilkStgo"){
+                sh "docker logout"
+            }
+        }
+    }
+}

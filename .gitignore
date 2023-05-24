@@ -1,2 +1,5 @@
-MilkStgo/data/
-sonarqube-9.9.0.65466/
+MilkStgo/data
+sonarqube-9.9.0.65466
+jenkins.war
+ArchivoGrasaST.csv
+ArchivoPrueba.csv
