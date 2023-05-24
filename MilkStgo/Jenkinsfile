@@ -1,14 +1,13 @@
 pipeline{
     agent any
     tools{
-        maven "maven"
+        maven "mvn"
     }
     stages{
         stage("Build JAR File"){
             steps{
                 checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/jesus-medina13/Mingeso-2023-1']])
                 dir("MilkStgo"){
-                    sh "ls"
                     sh "mvn clean install"
                 }
             }
